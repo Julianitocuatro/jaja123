@@ -1,0 +1,2898 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Gui = Instance.new("ScreenGui")
+local All = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local menu = Instance.new("Frame")
+local Tittle = Instance.new("TextLabel")
+local TextLabel1 = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+local PlayerName = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local BLBu = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local INICIAR = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local menus = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel3 = Instance.new("TextLabel")
+local ANTIS = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local END = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Guix = Instance.new("Frame")
+local GuiN = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local Page4 = Instance.new("Frame")
+local Sub2p1 = Instance.new("Frame")
+local Count = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Count_2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Count_3 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Count_4 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local PageNumber = Instance.new("TextLabel")
+local Izq = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Der = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Sub1p2 = Instance.new("Frame")
+local SETTIME = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local RANDOME = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local RESPAWN = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local GUNS = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Sub1p1 = Instance.new("Frame")
+local XYZ = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Teleports = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Teams = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Count_5 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local FadeSub1 = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local Sub2p2 = Instance.new("Frame")
+local Count_6 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Count_7 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Count_8 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Count_9 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Count_10 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Count_11 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Count_12 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Count_13 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Count_14 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local FadeSub2 = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local Sub2p3 = Instance.new("Frame")
+local SCURSOR = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_33 = Instance.new("UICorner")
+local RCURSOR = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Sub1p4 = Instance.new("Frame")
+local Bri = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local RSERVER = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local CURSOR = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local COPLOOP = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local Sub2p4 = Instance.new("Frame")
+local SETBRI = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_40 = Instance.new("UICorner")
+local RBRI = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Sub2p5 = Instance.new("Frame")
+local LFLING = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_43 = Instance.new("UICorner")
+local Sub1p3 = Instance.new("Frame")
+local ANTISH = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local FLING = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local ANTIASPAM = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local CURSOR_2 = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local Page3 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_48 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_49 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_50 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_51 = Instance.new("UICorner")
+local Page2 = Instance.new("Frame")
+local PageName = Instance.new("TextLabel")
+local SPAMARREST = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local GuiM = Instance.new("Frame")
+local UICorner_53 = Instance.new("UICorner")
+local BLACKLIST = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local MOSCANEW = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local MOSCAOLD = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local SCORPION = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local SCORPIONB = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local GTitle = Instance.new("Frame")
+local UICorner_59 = Instance.new("UICorner")
+local PlayerName_2 = Instance.new("TextLabel")
+local PageName_2 = Instance.new("TextLabel")
+local FadePage = Instance.new("Frame")
+local UIGradient_5 = Instance.new("UIGradient")
+local GuiMX = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_60 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local ColorfavB = Instance.new("TextLabel")
+local UICorner_61 = Instance.new("UICorner")
+local ANTIABUSERS = Instance.new("TextButton")
+local UICorner_62 = Instance.new("UICorner")
+local S1 = Instance.new("TextLabel")
+local CONTROLES = Instance.new("TextButton")
+local UICorner_63 = Instance.new("UICorner")
+local OTROS = Instance.new("TextButton")
+local UICorner_64 = Instance.new("UICorner")
+local S2 = Instance.new("TextLabel")
+local REJOIN = Instance.new("TextButton")
+local UICorner_65 = Instance.new("UICorner")
+local END_2 = Instance.new("TextButton")
+local UICorner_66 = Instance.new("UICorner")
+local LOADSCRIPT = Instance.new("TextButton")
+local UICorner_67 = Instance.new("UICorner")
+local Colorfav = Instance.new("Frame")
+
+--Properties:
+
+Gui.Name = "Gui"
+Gui.Parent = game.CoreGui
+Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+All.Name = "All"
+All.Parent = Gui
+All.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+All.Position = UDim2.new(0.35800001, 0, 0.165999994, 0)
+All.Size = UDim2.new(0, 541, 0, 300)
+All.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = All
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 33, 33)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(47, 47, 47))}
+UIGradient.Parent = All
+
+menu.Name = "menu"
+menu.Parent = Gui
+menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu.BackgroundTransparency = 1.000
+menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
+menu.Position = UDim2.new(0.35800001, 0, 0.165999994, 0)
+menu.Size = UDim2.new(0, 541, 0, 300)
+menu.Visible = false
+
+Tittle.Name = "Tittle"
+Tittle.Parent = menu
+Tittle.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Tittle.BackgroundTransparency = 1.000
+Tittle.Position = UDim2.new(0.308687598, 0, 0, 0)
+Tittle.Size = UDim2.new(0, 208, 0, 50)
+Tittle.Font = Enum.Font.SourceSansBold
+Tittle.Text = ""
+Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tittle.TextSize = 36.000
+
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = menu
+TextLabel1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.BackgroundTransparency = 1.000
+TextLabel1.Position = UDim2.new(0.138632163, 0, 0.266435981, 0)
+TextLabel1.Size = UDim2.new(0, 167, 0, 30)
+TextLabel1.Font = Enum.Font.SourceSans
+TextLabel1.Text = "Deseas iniciar la blacklist antes de entrar?"
+TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.TextSize = 15.000
+TextLabel1.TextWrapped = true
+
+TextLabel2.Name = "TextLabel2"
+TextLabel2.Parent = menu
+TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.BackgroundTransparency = 1.000
+TextLabel2.Position = UDim2.new(0.548983335, 0, 0.266435951, 0)
+TextLabel2.Size = UDim2.new(0, 167, 0, 30)
+TextLabel2.Font = Enum.Font.SourceSans
+TextLabel2.Text = "En apuros?"
+TextLabel2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.TextSize = 25.000
+TextLabel2.TextWrapped = true
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = menu
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.BackgroundTransparency = 1.000
+PlayerName.Position = UDim2.new(0.316081345, 0, 0.906574368, 0)
+PlayerName.Size = UDim2.new(0, 197, 0, 30)
+PlayerName.Font = Enum.Font.SourceSansBold
+PlayerName.Text = "PLAYER NAME"
+PlayerName.TextColor3 = Color3.fromRGB(138, 138, 138)
+PlayerName.TextSize = 19.000
+PlayerName.TextWrapped = true
+
+UICorner_2.Parent = menu
+
+BLBu.Name = "BLBu"
+BLBu.Parent = menu
+BLBu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BLBu.Position = UDim2.new(0.107685238, 0, 0.395709574, 0)
+BLBu.Size = UDim2.new(0, 198, 0, 50)
+BLBu.Font = Enum.Font.SourceSansSemibold
+BLBu.Text = ""
+BLBu.TextColor3 = Color3.fromRGB(85, 255, 127)
+BLBu.TextSize = 23.000
+
+UICorner_3.Parent = BLBu
+
+TextLabel.Parent = BLBu
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.180000007, 0)
+TextLabel.Size = UDim2.new(0, 198, 0, 31)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "BLACKLIST: OFF"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 23.000
+
+INICIAR.Name = "INICIAR"
+INICIAR.Parent = menu
+INICIAR.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+INICIAR.Position = UDim2.new(0.315564275, 0, 0.680528045, 0)
+INICIAR.Size = UDim2.new(0, 198, 0, 50)
+INICIAR.Font = Enum.Font.SourceSansSemibold
+INICIAR.Text = "INICIAR"
+INICIAR.TextColor3 = Color3.fromRGB(255, 255, 255)
+INICIAR.TextSize = 23.000
+
+UICorner_4.Parent = INICIAR
+
+menus.Name = "menus"
+menus.Parent = menu
+menus.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+menus.BackgroundTransparency = 1.000
+menus.Position = UDim2.new(0.0794824436, 0, 0.207612455, 0)
+menus.Size = UDim2.new(0, 454, 0, 202)
+menus.ZIndex = 0
+
+UICorner_5.CornerRadius = UDim.new(0, 9)
+UICorner_5.Parent = menus
+
+TextLabel3.Name = "TextLabel3"
+TextLabel3.Parent = menu
+TextLabel3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel3.BackgroundTransparency = 1.000
+TextLabel3.Position = UDim2.new(0.279112756, 0, 0.586435914, 0)
+TextLabel3.Size = UDim2.new(0, 237, 0, 28)
+TextLabel3.Font = Enum.Font.SourceSans
+TextLabel3.Text = "Apreta este boton cuando estes listo"
+TextLabel3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel3.TextSize = 15.000
+TextLabel3.TextWrapped = true
+
+ANTIS.Name = "ANTIS"
+ANTIS.Parent = menu
+ANTIS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ANTIS.Position = UDim2.new(0.519746482, 0, 0.395709634, 0)
+ANTIS.Size = UDim2.new(0, 100, 0, 50)
+ANTIS.Font = Enum.Font.SourceSansSemibold
+ANTIS.Text = "ANTISPAM"
+ANTIS.TextColor3 = Color3.fromRGB(255, 255, 255)
+ANTIS.TextSize = 23.000
+
+UICorner_6.Parent = ANTIS
+
+END.Name = "END"
+END.Parent = menu
+END.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+END.Position = UDim2.new(0.715680003, 0, 0.395709634, 0)
+END.Size = UDim2.new(0, 92, 0, 50)
+END.Font = Enum.Font.SourceSansSemibold
+END.Text = "END"
+END.TextColor3 = Color3.fromRGB(255, 255, 255)
+END.TextSize = 23.000
+
+UICorner_7.Parent = END
+
+Guix.Name = "Guix"
+Guix.Parent = Gui
+Guix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Guix.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Guix.Position = UDim2.new(0.397478223, 0, 0.561939299, 0)
+Guix.Selectable = true
+Guix.Size = UDim2.new(0, 507, 0, 323)
+
+GuiN.Name = "GuiN"
+GuiN.Parent = Guix
+GuiN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuiN.Position = UDim2.new(0.0149999997, 0, 0.0199999996, 0)
+GuiN.Size = UDim2.new(0, 335, 0, 309)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 33, 33)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_2.Parent = GuiN
+
+UICorner_8.CornerRadius = UDim.new(0, 9)
+UICorner_8.Parent = GuiN
+
+Page4.Name = "Page4"
+Page4.Parent = GuiN
+Page4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page4.BackgroundTransparency = 1.000
+Page4.Position = UDim2.new(0, 0, 0.268608421, 0)
+Page4.Size = UDim2.new(0, 335, 0, 225)
+
+Sub2p1.Name = "Sub2p1"
+Sub2p1.Parent = Page4
+Sub2p1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub2p1.BackgroundTransparency = 1.000
+Sub2p1.Position = UDim2.new(0, 0, 0.50222224, 0)
+Sub2p1.Size = UDim2.new(0, 334, 0, 112)
+Sub2p1.Visible = false
+
+Count.Name = "Count"
+Count.Parent = Sub2p1
+Count.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count.BackgroundTransparency = 0.650
+Count.Position = UDim2.new(0.261404455, 0, 0.471801639, 0)
+Count.Size = UDim2.new(0, 76, 0, 35)
+Count.Font = Enum.Font.SourceSansSemibold
+Count.Text = "CRIMINAL"
+Count.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count.TextSize = 17.000
+Count.TextWrapped = true
+
+UICorner_9.Parent = Count
+
+Count_2.Name = "Count"
+Count_2.Parent = Sub2p1
+Count_2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_2.BackgroundTransparency = 0.650
+Count_2.Position = UDim2.new(0.509907305, 0, 0.105730161, 0)
+Count_2.Size = UDim2.new(0, 76, 0, 35)
+Count_2.Font = Enum.Font.SourceSansSemibold
+Count_2.Text = "GUARD"
+Count_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_2.TextSize = 17.000
+Count_2.TextWrapped = true
+
+UICorner_10.Parent = Count_2
+
+Count_3.Name = "Count"
+Count_3.Parent = Sub2p1
+Count_3.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_3.BackgroundTransparency = 0.650
+Count_3.Position = UDim2.new(0.509907424, 0, 0.471801639, 0)
+Count_3.Size = UDim2.new(0, 76, 0, 35)
+Count_3.Font = Enum.Font.SourceSansSemibold
+Count_3.Text = "INMATE"
+Count_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_3.TextSize = 17.000
+Count_3.TextWrapped = true
+
+UICorner_11.Parent = Count_3
+
+Count_4.Name = "Count"
+Count_4.Parent = Sub2p1
+Count_4.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_4.BackgroundTransparency = 0.650
+Count_4.Position = UDim2.new(0.261404395, 0, 0.105730161, 0)
+Count_4.Size = UDim2.new(0, 76, 0, 35)
+Count_4.Font = Enum.Font.SourceSansSemibold
+Count_4.Text = "NEUTRAL"
+Count_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_4.TextSize = 17.000
+Count_4.TextWrapped = true
+
+UICorner_12.Parent = Count_4
+
+PageNumber.Name = "PageNumber"
+PageNumber.Parent = Page4
+PageNumber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber.BackgroundTransparency = 1.000
+PageNumber.Position = UDim2.new(0.440961868, 0, 0.388380796, 0)
+PageNumber.Size = UDim2.new(0, 38, 0, 18)
+PageNumber.Font = Enum.Font.SourceSans
+PageNumber.Text = "1/3"
+PageNumber.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageNumber.TextScaled = true
+PageNumber.TextSize = 27.000
+PageNumber.TextWrapped = true
+
+Izq.Name = "Izq"
+Izq.Parent = Page4
+Izq.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Izq.BackgroundTransparency = 0.650
+Izq.Position = UDim2.new(0.336791068, 0, 0.394222289, 0)
+Izq.Size = UDim2.new(0, 38, 0, 17)
+Izq.Font = Enum.Font.SourceSansSemibold
+Izq.Text = "<"
+Izq.TextColor3 = Color3.fromRGB(255, 255, 255)
+Izq.TextSize = 17.000
+Izq.TextWrapped = true
+
+UICorner_13.Parent = Izq
+
+Der.Name = "Der"
+Der.Parent = Page4
+Der.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Der.BackgroundTransparency = 0.650
+Der.Position = UDim2.new(0.548731327, 0, 0.394222289, 0)
+Der.Size = UDim2.new(0, 38, 0, 17)
+Der.Font = Enum.Font.SourceSansSemibold
+Der.Text = ">"
+Der.TextColor3 = Color3.fromRGB(255, 255, 255)
+Der.TextSize = 17.000
+Der.TextWrapped = true
+
+UICorner_14.Parent = Der
+
+Sub1p2.Name = "Sub1p2"
+Sub1p2.Parent = Page4
+Sub1p2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub1p2.BackgroundTransparency = 1.000
+Sub1p2.Position = UDim2.new(0, 0, -0.0177777782, 0)
+Sub1p2.Size = UDim2.new(0, 335, 0, 110)
+Sub1p2.Visible = false
+
+SETTIME.Name = "SETTIME"
+SETTIME.Parent = Sub1p2
+SETTIME.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SETTIME.BackgroundTransparency = 0.650
+SETTIME.Position = UDim2.new(0.133805916, 0, 0.0572525673, 0)
+SETTIME.Size = UDim2.new(0, 116, 0, 35)
+SETTIME.Font = Enum.Font.SourceSansSemibold
+SETTIME.Text = "GUNCOLOR: OFF"
+SETTIME.TextColor3 = Color3.fromRGB(255, 0, 0)
+SETTIME.TextSize = 17.000
+SETTIME.TextWrapped = true
+
+UICorner_15.Parent = SETTIME
+
+RANDOME.Name = "RANDOME"
+RANDOME.Parent = Sub1p2
+RANDOME.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RANDOME.BackgroundTransparency = 0.650
+RANDOME.Position = UDim2.new(0.518999994, 0, 0.0529999994, 0)
+RANDOME.Size = UDim2.new(0, 116, 0, 35)
+RANDOME.Font = Enum.Font.SourceSansSemibold
+RANDOME.Text = "LOCK"
+RANDOME.TextColor3 = Color3.fromRGB(255, 255, 255)
+RANDOME.TextSize = 17.000
+RANDOME.TextWrapped = true
+
+UICorner_16.Parent = RANDOME
+
+RESPAWN.Name = "RESPAWN"
+RESPAWN.Parent = Sub1p2
+RESPAWN.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RESPAWN.BackgroundTransparency = 0.650
+RESPAWN.Position = UDim2.new(0.133805916, 0, 0.39846468, 0)
+RESPAWN.Size = UDim2.new(0, 116, 0, 35)
+RESPAWN.Font = Enum.Font.SourceSansSemibold
+RESPAWN.Text = "RESPAWN"
+RESPAWN.TextColor3 = Color3.fromRGB(255, 255, 255)
+RESPAWN.TextSize = 17.000
+RESPAWN.TextWrapped = true
+
+UICorner_17.Parent = RESPAWN
+
+GUNS.Name = "GUNS"
+GUNS.Parent = Sub1p2
+GUNS.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GUNS.BackgroundTransparency = 0.650
+GUNS.Position = UDim2.new(0.518999994, 0, 0.393999994, 0)
+GUNS.Size = UDim2.new(0, 116, 0, 35)
+GUNS.Font = Enum.Font.SourceSansSemibold
+GUNS.Text = "GUNS"
+GUNS.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUNS.TextSize = 17.000
+GUNS.TextWrapped = true
+
+UICorner_18.Parent = GUNS
+
+Sub1p1.Name = "Sub1p1"
+Sub1p1.Parent = Page4
+Sub1p1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub1p1.BackgroundTransparency = 1.000
+Sub1p1.Position = UDim2.new(0, 0, -0.0177777782, 0)
+Sub1p1.Size = UDim2.new(0, 335, 0, 110)
+Sub1p1.Visible = false
+
+XYZ.Name = "XYZ"
+XYZ.Parent = Sub1p1
+XYZ.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+XYZ.BackgroundTransparency = 0.650
+XYZ.Position = UDim2.new(0.133805916, 0, 0.0572525673, 0)
+XYZ.Size = UDim2.new(0, 116, 0, 35)
+XYZ.Font = Enum.Font.SourceSansSemibold
+XYZ.Text = "XYZ"
+XYZ.TextColor3 = Color3.fromRGB(255, 255, 255)
+XYZ.TextSize = 17.000
+XYZ.TextWrapped = true
+
+UICorner_19.Parent = XYZ
+
+Teleports.Name = "Teleports"
+Teleports.Parent = Sub1p1
+Teleports.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Teleports.BackgroundTransparency = 0.650
+Teleports.Position = UDim2.new(0.518880546, 0, 0.394020259, 0)
+Teleports.Size = UDim2.new(0, 116, 0, 35)
+Teleports.Font = Enum.Font.SourceSansSemibold
+Teleports.Text = "TELEPORTS"
+Teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.TextSize = 17.000
+Teleports.TextWrapped = true
+
+UICorner_20.Parent = Teleports
+
+Teams.Name = "Teams"
+Teams.Parent = Sub1p1
+Teams.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Teams.BackgroundTransparency = 0.650
+Teams.Position = UDim2.new(0.133805916, 0, 0.39846468, 0)
+Teams.Size = UDim2.new(0, 116, 0, 35)
+Teams.Font = Enum.Font.SourceSansSemibold
+Teams.Text = "EQUIPOS"
+Teams.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teams.TextSize = 17.000
+Teams.TextWrapped = true
+
+UICorner_21.Parent = Teams
+
+Count_5.Name = "Count"
+Count_5.Parent = Sub1p1
+Count_5.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_5.BackgroundTransparency = 0.650
+Count_5.Position = UDim2.new(0.518880546, 0, 0.0528081246, 0)
+Count_5.Size = UDim2.new(0, 116, 0, 35)
+Count_5.Font = Enum.Font.SourceSansSemibold
+Count_5.Text = "CONTAR PVP"
+Count_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_5.TextSize = 17.000
+Count_5.TextWrapped = true
+
+UICorner_22.Parent = Count_5
+
+FadeSub1.Name = "FadeSub1"
+FadeSub1.Parent = Page4
+FadeSub1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FadeSub1.BackgroundTransparency = 1.000
+FadeSub1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+FadeSub1.BorderSizePixel = 0
+FadeSub1.Position = UDim2.new(0.0298507456, 0, -0.0177777782, 0)
+FadeSub1.Size = UDim2.new(0, 315, 0, 91)
+FadeSub1.ZIndex = 2
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 33, 33)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_3.Parent = FadeSub1
+
+Sub2p2.Name = "Sub2p2"
+Sub2p2.Parent = Page4
+Sub2p2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub2p2.BackgroundTransparency = 1.000
+Sub2p2.Position = UDim2.new(0, 0, 0.50222224, 0)
+Sub2p2.Size = UDim2.new(0, 334, 0, 112)
+Sub2p2.Visible = false
+
+Count_6.Name = "Count"
+Count_6.Parent = Sub2p2
+Count_6.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_6.BackgroundTransparency = 0.650
+Count_6.Position = UDim2.new(0.13864994, 0, 0.604701996, 0)
+Count_6.Size = UDim2.new(0, 76, 0, 26)
+Count_6.Font = Enum.Font.SourceSansSemibold
+Count_6.Text = "NEXUS"
+Count_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_6.TextSize = 17.000
+Count_6.TextWrapped = true
+
+UICorner_23.Parent = Count_6
+
+Count_7.Name = "Count"
+Count_7.Parent = Sub2p2
+Count_7.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_7.BackgroundTransparency = 0.650
+Count_7.Position = UDim2.new(0.387152761, 0, 0.319501609, 0)
+Count_7.Size = UDim2.new(0, 76, 0, 26)
+Count_7.Font = Enum.Font.SourceSansSemibold
+Count_7.Text = "CAFE"
+Count_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_7.TextSize = 17.000
+Count_7.TextWrapped = true
+
+UICorner_24.Parent = Count_7
+
+Count_8.Name = "Count"
+Count_8.Parent = Sub2p2
+Count_8.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_8.BackgroundTransparency = 0.650
+Count_8.Position = UDim2.new(0.38715294, 0, 0.604701996, 0)
+Count_8.Size = UDim2.new(0, 76, 0, 26)
+Count_8.Font = Enum.Font.SourceSansSemibold
+Count_8.Text = "ROOF"
+Count_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_8.TextSize = 17.000
+Count_8.TextWrapped = true
+
+UICorner_25.Parent = Count_8
+
+Count_9.Name = "Count"
+Count_9.Parent = Sub2p2
+Count_9.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_9.BackgroundTransparency = 0.650
+Count_9.Position = UDim2.new(0.13864994, 0, 0.319501609, 0)
+Count_9.Size = UDim2.new(0, 76, 0, 26)
+Count_9.Font = Enum.Font.SourceSansSemibold
+Count_9.Text = "CELLS"
+Count_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_9.TextSize = 17.000
+Count_9.TextWrapped = true
+
+UICorner_26.Parent = Count_9
+
+Count_10.Name = "Count"
+Count_10.Parent = Sub2p2
+Count_10.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_10.BackgroundTransparency = 0.650
+Count_10.Position = UDim2.new(0.635655761, 0, 0.319501609, 0)
+Count_10.Size = UDim2.new(0, 76, 0, 26)
+Count_10.Font = Enum.Font.SourceSansSemibold
+Count_10.Text = "YARD"
+Count_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_10.TextSize = 17.000
+Count_10.TextWrapped = true
+
+UICorner_27.Parent = Count_10
+
+Count_11.Name = "Count"
+Count_11.Parent = Sub2p2
+Count_11.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_11.BackgroundTransparency = 0.650
+Count_11.Position = UDim2.new(0.63565594, 0, 0.604701996, 0)
+Count_11.Size = UDim2.new(0, 76, 0, 26)
+Count_11.Font = Enum.Font.SourceSansSemibold
+Count_11.Text = "PVP"
+Count_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_11.TextSize = 17.000
+Count_11.TextWrapped = true
+
+UICorner_28.Parent = Count_11
+
+Count_12.Name = "Count"
+Count_12.Parent = Sub2p2
+Count_12.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_12.BackgroundTransparency = 0.650
+Count_12.Position = UDim2.new(0.387152761, 0, 0.0343012139, 0)
+Count_12.Size = UDim2.new(0, 76, 0, 26)
+Count_12.Font = Enum.Font.SourceSansSemibold
+Count_12.Text = "BASE"
+Count_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_12.TextSize = 17.000
+Count_12.TextWrapped = true
+
+UICorner_29.Parent = Count_12
+
+Count_13.Name = "Count"
+Count_13.Parent = Sub2p2
+Count_13.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_13.BackgroundTransparency = 0.650
+Count_13.Position = UDim2.new(0.635655761, 0, 0.0343012139, 0)
+Count_13.Size = UDim2.new(0, 76, 0, 26)
+Count_13.Font = Enum.Font.SourceSansSemibold
+Count_13.Text = "ARMORY"
+Count_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_13.TextSize = 17.000
+Count_13.TextWrapped = true
+
+UICorner_30.Parent = Count_13
+
+Count_14.Name = "Count"
+Count_14.Parent = Sub2p2
+Count_14.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Count_14.BackgroundTransparency = 0.650
+Count_14.Position = UDim2.new(0.13864994, 0, 0.0343012139, 0)
+Count_14.Size = UDim2.new(0, 76, 0, 26)
+Count_14.Font = Enum.Font.SourceSansSemibold
+Count_14.Text = "BACK"
+Count_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Count_14.TextSize = 17.000
+Count_14.TextWrapped = true
+
+UICorner_31.Parent = Count_14
+
+FadeSub2.Name = "FadeSub2"
+FadeSub2.Parent = Page4
+FadeSub2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FadeSub2.BackgroundTransparency = 1.000
+FadeSub2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+FadeSub2.BorderSizePixel = 0
+FadeSub2.Position = UDim2.new(0.0268656723, 0, 0.519296587, 0)
+FadeSub2.Size = UDim2.new(0, 315, 0, 102)
+FadeSub2.ZIndex = 5
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 33, 33)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_4.Parent = FadeSub2
+
+Sub2p3.Name = "Sub2p3"
+Sub2p3.Parent = Page4
+Sub2p3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub2p3.BackgroundTransparency = 1.000
+Sub2p3.Position = UDim2.new(0, 0, 0.50222224, 0)
+Sub2p3.Size = UDim2.new(0, 334, 0, 112)
+Sub2p3.Visible = false
+
+SCURSOR.Name = "SCURSOR"
+SCURSOR.Parent = Sub2p3
+SCURSOR.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SCURSOR.BackgroundTransparency = 0.650
+SCURSOR.Position = UDim2.new(0.177572101, 0, 0.318987727, 0)
+SCURSOR.Size = UDim2.new(0, 104, 0, 26)
+SCURSOR.Font = Enum.Font.SourceSansSemibold
+SCURSOR.Text = "SET CURSOR"
+SCURSOR.TextColor3 = Color3.fromRGB(255, 255, 255)
+SCURSOR.TextSize = 17.000
+SCURSOR.TextWrapped = true
+
+UICorner_32.Parent = SCURSOR
+
+TextBox.Parent = Sub2p3
+TextBox.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+TextBox.BackgroundTransparency = 0.850
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Position = UDim2.new(0.209580839, 0, 0.0610869303, 0)
+TextBox.Size = UDim2.new(0, 192, 0, 23)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+UICorner_33.CornerRadius = UDim.new(0, 9)
+UICorner_33.Parent = TextBox
+
+RCURSOR.Name = "RCURSOR"
+RCURSOR.Parent = Sub2p3
+RCURSOR.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RCURSOR.BackgroundTransparency = 0.650
+RCURSOR.Position = UDim2.new(0.509907365, 0, 0.318987727, 0)
+RCURSOR.Size = UDim2.new(0, 104, 0, 26)
+RCURSOR.Font = Enum.Font.SourceSansSemibold
+RCURSOR.Text = "RESET"
+RCURSOR.TextColor3 = Color3.fromRGB(255, 255, 255)
+RCURSOR.TextSize = 17.000
+RCURSOR.TextWrapped = true
+
+UICorner_34.Parent = RCURSOR
+
+Sub1p4.Name = "Sub1p4"
+Sub1p4.Parent = Page4
+Sub1p4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub1p4.BackgroundTransparency = 1.000
+Sub1p4.Position = UDim2.new(0, 0, -0.0177777782, 0)
+Sub1p4.Size = UDim2.new(0, 335, 0, 110)
+
+Bri.Name = "Bri"
+Bri.Parent = Sub1p4
+Bri.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Bri.BackgroundTransparency = 0.650
+Bri.Position = UDim2.new(0.133805916, 0, 0.39846468, 0)
+Bri.Size = UDim2.new(0, 116, 0, 35)
+Bri.Font = Enum.Font.SourceSansSemibold
+Bri.Text = "BRIGHTNESS"
+Bri.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bri.TextSize = 17.000
+Bri.TextWrapped = true
+
+UICorner_35.Parent = Bri
+
+RSERVER.Name = "RSERVER"
+RSERVER.Parent = Sub1p4
+RSERVER.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RSERVER.BackgroundTransparency = 0.650
+RSERVER.Position = UDim2.new(0.518999994, 0, 0.0529999994, 0)
+RSERVER.Size = UDim2.new(0, 116, 0, 35)
+RSERVER.Font = Enum.Font.SourceSansSemibold
+RSERVER.Text = "RANDOM SERVER"
+RSERVER.TextColor3 = Color3.fromRGB(255, 255, 255)
+RSERVER.TextSize = 17.000
+RSERVER.TextWrapped = true
+
+UICorner_36.Parent = RSERVER
+
+CURSOR.Name = "CURSOR"
+CURSOR.Parent = Sub1p4
+CURSOR.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CURSOR.BackgroundTransparency = 0.650
+CURSOR.Position = UDim2.new(0.518999994, 0, 0.393999994, 0)
+CURSOR.Size = UDim2.new(0, 116, 0, 35)
+CURSOR.Font = Enum.Font.SourceSansSemibold
+CURSOR.Text = "ANTILAG (PERM)"
+CURSOR.TextColor3 = Color3.fromRGB(255, 251, 187)
+CURSOR.TextSize = 17.000
+CURSOR.TextWrapped = true
+
+UICorner_37.Parent = CURSOR
+
+COPLOOP.Name = "COPLOOP"
+COPLOOP.Parent = Sub1p4
+COPLOOP.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+COPLOOP.BackgroundTransparency = 0.650
+COPLOOP.Position = UDim2.new(0.133805916, 0, 0.0572525673, 0)
+COPLOOP.Size = UDim2.new(0, 116, 0, 35)
+COPLOOP.Font = Enum.Font.SourceSansSemibold
+COPLOOP.Text = "COPLOOP: OFF"
+COPLOOP.TextColor3 = Color3.fromRGB(255, 0, 0)
+COPLOOP.TextSize = 17.000
+COPLOOP.TextWrapped = true
+
+UICorner_38.Parent = COPLOOP
+
+Sub2p4.Name = "Sub2p4"
+Sub2p4.Parent = Page4
+Sub2p4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub2p4.BackgroundTransparency = 1.000
+Sub2p4.Position = UDim2.new(0, 0, 0.50222224, 0)
+Sub2p4.Size = UDim2.new(0, 334, 0, 112)
+
+SETBRI.Name = "SETBRI"
+SETBRI.Parent = Sub2p4
+SETBRI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SETBRI.BackgroundTransparency = 0.650
+SETBRI.Position = UDim2.new(0.177572101, 0, 0.318987727, 0)
+SETBRI.Size = UDim2.new(0, 104, 0, 26)
+SETBRI.Font = Enum.Font.SourceSansSemibold
+SETBRI.Text = "SET BRI"
+SETBRI.TextColor3 = Color3.fromRGB(255, 255, 255)
+SETBRI.TextSize = 17.000
+SETBRI.TextWrapped = true
+
+UICorner_39.Parent = SETBRI
+
+TextBox_2.Parent = Sub2p4
+TextBox_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+TextBox_2.BackgroundTransparency = 0.850
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.Position = UDim2.new(0.209580839, 0, 0.0610869303, 0)
+TextBox_2.Size = UDim2.new(0, 192, 0, 23)
+TextBox_2.Font = Enum.Font.SourceSansBold
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
+
+UICorner_40.CornerRadius = UDim.new(0, 9)
+UICorner_40.Parent = TextBox_2
+
+RBRI.Name = "RBRI"
+RBRI.Parent = Sub2p4
+RBRI.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+RBRI.BackgroundTransparency = 0.650
+RBRI.Position = UDim2.new(0.509907365, 0, 0.318987727, 0)
+RBRI.Size = UDim2.new(0, 104, 0, 26)
+RBRI.Font = Enum.Font.SourceSansSemibold
+RBRI.Text = "RESET"
+RBRI.TextColor3 = Color3.fromRGB(255, 255, 255)
+RBRI.TextSize = 17.000
+RBRI.TextWrapped = true
+
+UICorner_41.Parent = RBRI
+
+Sub2p5.Name = "Sub2p5"
+Sub2p5.Parent = Page4
+Sub2p5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub2p5.BackgroundTransparency = 1.000
+Sub2p5.Position = UDim2.new(0, 0, 0.50222224, 0)
+Sub2p5.Size = UDim2.new(0, 334, 0, 112)
+Sub2p5.Visible = false
+
+LFLING.Name = "LFLING"
+LFLING.Parent = Sub2p5
+LFLING.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+LFLING.BackgroundTransparency = 0.650
+LFLING.Position = UDim2.new(0.278443098, 0, 0.318987697, 0)
+LFLING.Size = UDim2.new(0, 146, 0, 26)
+LFLING.Font = Enum.Font.SourceSansSemibold
+LFLING.Text = "LOOP FLING: OFF"
+LFLING.TextColor3 = Color3.fromRGB(255, 0, 0)
+LFLING.TextSize = 17.000
+LFLING.TextWrapped = true
+
+UICorner_42.Parent = LFLING
+
+TextBox_3.Parent = Sub2p5
+TextBox_3.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+TextBox_3.BackgroundTransparency = 0.850
+TextBox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.Position = UDim2.new(0.209580839, 0, 0.0610869303, 0)
+TextBox_3.Size = UDim2.new(0, 192, 0, 23)
+TextBox_3.Font = Enum.Font.SourceSansBold
+TextBox_3.Text = ""
+TextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.TextSize = 14.000
+
+UICorner_43.CornerRadius = UDim.new(0, 9)
+UICorner_43.Parent = TextBox_3
+
+Sub1p3.Name = "Sub1p3"
+Sub1p3.Parent = Page4
+Sub1p3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sub1p3.BackgroundTransparency = 1.000
+Sub1p3.Position = UDim2.new(0, 0, -0.0177777782, 0)
+Sub1p3.Size = UDim2.new(0, 335, 0, 110)
+Sub1p3.Visible = false
+
+ANTISH.Name = "ANTISH"
+ANTISH.Parent = Sub1p3
+ANTISH.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ANTISH.BackgroundTransparency = 0.650
+ANTISH.Position = UDim2.new(0.133805916, 0, 0.0572525673, 0)
+ANTISH.Size = UDim2.new(0, 116, 0, 35)
+ANTISH.Font = Enum.Font.SourceSansSemibold
+ANTISH.Text = "AUTORESPAWN: OFF"
+ANTISH.TextColor3 = Color3.fromRGB(255, 0, 0)
+ANTISH.TextSize = 14.000
+ANTISH.TextWrapped = true
+
+UICorner_44.Parent = ANTISH
+
+FLING.Name = "FLING"
+FLING.Parent = Sub1p3
+FLING.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+FLING.BackgroundTransparency = 0.650
+FLING.Position = UDim2.new(0.133805916, 0, 0.39846468, 0)
+FLING.Size = UDim2.new(0, 116, 0, 35)
+FLING.Font = Enum.Font.SourceSansSemibold
+FLING.Text = "FLING: OFF"
+FLING.TextColor3 = Color3.fromRGB(255, 0, 0)
+FLING.TextSize = 17.000
+FLING.TextWrapped = true
+
+UICorner_45.Parent = FLING
+
+ANTIASPAM.Name = "ANTIASPAM"
+ANTIASPAM.Parent = Sub1p3
+ANTIASPAM.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ANTIASPAM.BackgroundTransparency = 0.650
+ANTIASPAM.Position = UDim2.new(0.518999994, 0, 0.0529999994, 0)
+ANTIASPAM.Size = UDim2.new(0, 116, 0, 35)
+ANTIASPAM.Font = Enum.Font.SourceSansSemibold
+ANTIASPAM.Text = "AUTOLOCK: OFF"
+ANTIASPAM.TextColor3 = Color3.fromRGB(255, 0, 0)
+ANTIASPAM.TextSize = 17.000
+ANTIASPAM.TextWrapped = true
+
+UICorner_46.Parent = ANTIASPAM
+
+CURSOR_2.Name = "CURSOR"
+CURSOR_2.Parent = Sub1p3
+CURSOR_2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CURSOR_2.BackgroundTransparency = 0.650
+CURSOR_2.Position = UDim2.new(0.518999994, 0, 0.393999994, 0)
+CURSOR_2.Size = UDim2.new(0, 116, 0, 35)
+CURSOR_2.Font = Enum.Font.SourceSansSemibold
+CURSOR_2.Text = "CURSOR"
+CURSOR_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CURSOR_2.TextSize = 17.000
+CURSOR_2.TextWrapped = true
+
+UICorner_47.Parent = CURSOR_2
+
+Page3.Name = "Page3"
+Page3.Parent = GuiN
+Page3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page3.BackgroundTransparency = 1.000
+Page3.Position = UDim2.new(0, 0, 0.268608421, 0)
+Page3.Size = UDim2.new(0, 335, 0, 225)
+Page3.Visible = false
+
+TextLabel_2.Parent = Page3
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TextLabel_2.BackgroundTransparency = 0.800
+TextLabel_2.Position = UDim2.new(0.134000063, 0, 0.593222201, 0)
+TextLabel_2.Size = UDim2.new(0, 244, 0, 35)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "HIDE SHIELD (E)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 17.000
+TextLabel_2.TextWrapped = true
+
+UICorner_48.Parent = TextLabel_2
+
+TextLabel_3.Parent = Page3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TextLabel_3.BackgroundTransparency = 0.800
+TextLabel_3.Position = UDim2.new(0.134000063, 0, 0.428777784, 0)
+TextLabel_3.Size = UDim2.new(0, 244, 0, 35)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "CLOSE CHAT (V)"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 17.000
+TextLabel_3.TextWrapped = true
+
+UICorner_49.Parent = TextLabel_3
+
+TextLabel_4.Parent = Page3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TextLabel_4.BackgroundTransparency = 0.800
+TextLabel_4.Position = UDim2.new(0.134000063, 0, 0.264333338, 0)
+TextLabel_4.Size = UDim2.new(0, 244, 0, 35)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "RESPAWN (X)"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 17.000
+TextLabel_4.TextWrapped = true
+
+UICorner_50.Parent = TextLabel_4
+
+TextLabel_5.Parent = Page3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TextLabel_5.BackgroundTransparency = 0.800
+TextLabel_5.Position = UDim2.new(0.134000063, 0, 0.0998888984, 0)
+TextLabel_5.Size = UDim2.new(0, 244, 0, 35)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "CLOSE GUI (Q)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 17.000
+TextLabel_5.TextWrapped = true
+
+UICorner_51.Parent = TextLabel_5
+
+Page2.Name = "Page2"
+Page2.Parent = GuiN
+Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2.BackgroundTransparency = 1.000
+Page2.Position = UDim2.new(0, 0, 0.268608421, 0)
+Page2.Size = UDim2.new(0, 335, 0, 225)
+Page2.Visible = false
+
+PageName.Name = "PageName"
+PageName.Parent = Page2
+PageName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageName.BackgroundTransparency = 1.000
+PageName.Position = UDim2.new(0.166820914, 0, 0.798777938, 0)
+PageName.Size = UDim2.new(0, 219, 0, 27)
+PageName.Font = Enum.Font.SourceSans
+PageName.Text = "PROXIMAMENTE MAS!!! owo"
+PageName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageName.TextSize = 22.000
+PageName.TextWrapped = true
+
+SPAMARREST.Name = "SPAMARREST"
+SPAMARREST.Parent = Page2
+SPAMARREST.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SPAMARREST.BackgroundTransparency = 0.650
+SPAMARREST.Position = UDim2.new(0.130820885, 0, 0.0208888892, 0)
+SPAMARREST.Size = UDim2.new(0, 244, 0, 35)
+SPAMARREST.Font = Enum.Font.SourceSansSemibold
+SPAMARREST.Text = "SPAM ARREST"
+SPAMARREST.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPAMARREST.TextSize = 17.000
+SPAMARREST.TextWrapped = true
+
+UICorner_52.Parent = SPAMARREST
+
+GuiM.Name = "GuiM"
+GuiM.Parent = GuiN
+GuiM.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+GuiM.BackgroundTransparency = 1.000
+GuiM.Position = UDim2.new(0.037576735, 0, 0.278894722, 0)
+GuiM.Size = UDim2.new(0, 335, 0, 181)
+GuiM.Visible = false
+
+UICorner_53.CornerRadius = UDim.new(0, 9)
+UICorner_53.Parent = GuiM
+
+BLACKLIST.Name = "BLACKLIST"
+BLACKLIST.Parent = GuiM
+BLACKLIST.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+BLACKLIST.BackgroundTransparency = 0.650
+BLACKLIST.Position = UDim2.new(0.0947016031, 0, 0.91689539, 0)
+BLACKLIST.Size = UDim2.new(0, 244, 0, 35)
+BLACKLIST.Font = Enum.Font.SourceSansSemibold
+BLACKLIST.Text = "BLACKLIST: OFF"
+BLACKLIST.TextColor3 = Color3.fromRGB(255, 0, 0)
+BLACKLIST.TextSize = 17.000
+BLACKLIST.TextWrapped = true
+
+UICorner_54.Parent = BLACKLIST
+
+MOSCANEW.Name = "MOSCANEW"
+MOSCANEW.Parent = GuiM
+MOSCANEW.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+MOSCANEW.BackgroundTransparency = 0.650
+MOSCANEW.Position = UDim2.new(0.0947016031, 0, 0.624077737, 0)
+MOSCANEW.Size = UDim2.new(0, 244, 0, 35)
+MOSCANEW.Font = Enum.Font.SourceSansSemibold
+MOSCANEW.Text = "MOSCA NEW"
+MOSCANEW.TextColor3 = Color3.fromRGB(255, 255, 255)
+MOSCANEW.TextSize = 17.000
+MOSCANEW.TextWrapped = true
+
+UICorner_55.Parent = MOSCANEW
+
+MOSCAOLD.Name = "MOSCAOLD"
+MOSCAOLD.Parent = GuiM
+MOSCAOLD.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+MOSCAOLD.BackgroundTransparency = 0.650
+MOSCAOLD.Position = UDim2.new(0.0947016031, 0, 0.421071768, 0)
+MOSCAOLD.Size = UDim2.new(0, 245, 0, 35)
+MOSCAOLD.Font = Enum.Font.SourceSansSemibold
+MOSCAOLD.Text = "MOSCA OLD"
+MOSCAOLD.TextColor3 = Color3.fromRGB(255, 255, 255)
+MOSCAOLD.TextSize = 17.000
+MOSCAOLD.TextWrapped = true
+
+UICorner_56.Parent = MOSCAOLD
+
+SCORPION.Name = "SCORPION"
+SCORPION.Parent = GuiM
+SCORPION.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SCORPION.BackgroundTransparency = 0.650
+SCORPION.Position = UDim2.new(0.0951562673, 0, 0.0123725999, 0)
+SCORPION.Size = UDim2.new(0, 245, 0, 35)
+SCORPION.Font = Enum.Font.SourceSansSemibold
+SCORPION.Text = "SCORPION"
+SCORPION.TextColor3 = Color3.fromRGB(255, 255, 255)
+SCORPION.TextSize = 17.000
+SCORPION.TextWrapped = true
+
+UICorner_57.Parent = SCORPION
+
+SCORPIONB.Name = "SCORPIONB"
+SCORPIONB.Parent = GuiM
+SCORPIONB.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+SCORPIONB.BackgroundTransparency = 0.650
+SCORPIONB.Position = UDim2.new(0.0947018564, 0, 0.215181634, 0)
+SCORPIONB.Size = UDim2.new(0, 245, 0, 35)
+SCORPIONB.Font = Enum.Font.SourceSansSemibold
+SCORPIONB.Text = "SCORPION BLUE"
+SCORPIONB.TextColor3 = Color3.fromRGB(255, 255, 255)
+SCORPIONB.TextSize = 17.000
+SCORPIONB.TextWrapped = true
+
+UICorner_58.Parent = SCORPIONB
+
+GTitle.Name = "GTitle"
+GTitle.Parent = GuiN
+GTitle.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+GTitle.BackgroundTransparency = 0.700
+GTitle.Position = UDim2.new(0.0952063724, 0, 0.0561718233, 0)
+GTitle.Size = UDim2.new(0, 270, 0, 38)
+
+UICorner_59.CornerRadius = UDim.new(0, 9)
+UICorner_59.Parent = GTitle
+
+PlayerName_2.Name = "PlayerName"
+PlayerName_2.Parent = GTitle
+PlayerName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName_2.BackgroundTransparency = 1.000
+PlayerName_2.Position = UDim2.new(0.0185185187, 0, 0.196918726, 0)
+PlayerName_2.Size = UDim2.new(0, 260, 0, 23)
+PlayerName_2.Font = Enum.Font.SciFi
+PlayerName_2.Text = "PLAYER NAME"
+PlayerName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName_2.TextScaled = true
+PlayerName_2.TextSize = 27.000
+PlayerName_2.TextWrapped = true
+
+PageName_2.Name = "PageName"
+PageName_2.Parent = GTitle
+PageName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageName_2.BackgroundTransparency = 1.000
+PageName_2.Position = UDim2.new(0.0111111114, 0, 1.17060292, 0)
+PageName_2.Size = UDim2.new(0, 265, 0, 18)
+PageName_2.Font = Enum.Font.SourceSans
+PageName_2.Text = "CARGAR SCRIPTS"
+PageName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PageName_2.TextScaled = true
+PageName_2.TextSize = 27.000
+PageName_2.TextWrapped = true
+
+FadePage.Name = "FadePage"
+FadePage.Parent = GuiN
+FadePage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FadePage.BackgroundTransparency = 1.000
+FadePage.BorderSizePixel = 0
+FadePage.Position = UDim2.new(0.0203731712, 0, 0.270233065, 0)
+FadePage.Size = UDim2.new(0, 320, 0, 218)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 33, 33)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(34, 34, 34))}
+UIGradient_5.Parent = FadePage
+
+GuiMX.Name = "GuiMX"
+GuiMX.Parent = GuiN
+GuiMX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuiMX.Position = UDim2.new(1.01856112, 0, -0.00262867776, 0)
+GuiMX.Size = UDim2.new(0, 151, 0, 309)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(35, 35, 35)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(33, 33, 33))}
+UIGradient_6.Parent = GuiMX
+
+UICorner_60.CornerRadius = UDim.new(0, 9)
+UICorner_60.Parent = GuiMX
+
+TextLabel_6.Parent = GuiMX
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.12365938, 0, 0.839204788, 0)
+TextLabel_6.Size = UDim2.new(0, 112, 0, 26)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "OTROS"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 17.000
+
+TextLabel_7.Parent = GuiMX
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.12365938, 0, 0.712991178, 0)
+TextLabel_7.Size = UDim2.new(0, 112, 0, 26)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.SourceSansSemibold
+TextLabel_7.Text = "CONTROLES"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 17.000
+
+TextLabel_8.Parent = GuiMX
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.12365938, 0, 0.0657420158, 0)
+TextLabel_8.Size = UDim2.new(0, 112, 0, 26)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.SourceSansSemibold
+TextLabel_8.Text = "CARGAR SCRIPTS"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 17.000
+
+TextLabel_9.Parent = GuiMX
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.123659372, 0, 0.188719362, 0)
+TextLabel_9.Size = UDim2.new(0, 112, 0, 26)
+TextLabel_9.ZIndex = 2
+TextLabel_9.Font = Enum.Font.SourceSansSemibold
+TextLabel_9.Text = "ANTIABUSERS"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 17.000
+
+ColorfavB.Name = "ColorfavB"
+ColorfavB.Parent = GuiMX
+ColorfavB.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ColorfavB.BackgroundTransparency = 0.650
+ColorfavB.Position = UDim2.new(0.111000001, 0, 0.827699006, 0)
+ColorfavB.Selectable = true
+ColorfavB.Size = UDim2.new(0, 113, 0, 35)
+ColorfavB.Font = Enum.Font.SourceSans
+ColorfavB.Text = ""
+ColorfavB.TextColor3 = Color3.fromRGB(0, 0, 0)
+ColorfavB.TextSize = 14.000
+
+UICorner_61.Parent = ColorfavB
+
+ANTIABUSERS.Name = "ANTIABUSERS"
+ANTIABUSERS.Parent = GuiMX
+ANTIABUSERS.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ANTIABUSERS.BackgroundTransparency = 0.650
+ANTIABUSERS.Position = UDim2.new(0.111029208, 0, 0.175459877, 0)
+ANTIABUSERS.Size = UDim2.new(0, 113, 0, 35)
+ANTIABUSERS.Font = Enum.Font.SourceSansSemibold
+ANTIABUSERS.Text = ""
+ANTIABUSERS.TextColor3 = Color3.fromRGB(255, 255, 255)
+ANTIABUSERS.TextSize = 17.000
+ANTIABUSERS.TextWrapped = true
+
+UICorner_62.Parent = ANTIABUSERS
+
+S1.Name = "S1"
+S1.Parent = GuiMX
+S1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S1.BackgroundTransparency = 1.000
+S1.Position = UDim2.new(-0.00662251655, 0, 0.614825308, 0)
+S1.Size = UDim2.new(0, 150, 0, 27)
+S1.Font = Enum.Font.SourceSans
+S1.Text = "OTROS"
+S1.TextColor3 = Color3.fromRGB(255, 255, 255)
+S1.TextSize = 16.000
+S1.TextWrapped = true
+
+CONTROLES.Name = "CONTROLES"
+CONTROLES.Parent = GuiMX
+CONTROLES.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+CONTROLES.BackgroundTransparency = 0.650
+CONTROLES.Position = UDim2.new(0.111000001, 0, 0.703999996, 0)
+CONTROLES.Size = UDim2.new(0, 113, 0, 35)
+CONTROLES.Font = Enum.Font.SourceSansSemibold
+CONTROLES.Text = ""
+CONTROLES.TextColor3 = Color3.fromRGB(255, 255, 255)
+CONTROLES.TextSize = 17.000
+CONTROLES.TextWrapped = true
+
+UICorner_63.Parent = CONTROLES
+
+OTROS.Name = "OTROS"
+OTROS.Parent = GuiMX
+OTROS.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+OTROS.BackgroundTransparency = 0.650
+OTROS.Position = UDim2.new(0.111000001, 0, 0.828000009, 0)
+OTROS.Size = UDim2.new(0, 113, 0, 35)
+OTROS.Font = Enum.Font.SourceSansSemibold
+OTROS.Text = ""
+OTROS.TextColor3 = Color3.fromRGB(255, 255, 255)
+OTROS.TextSize = 17.000
+OTROS.TextWrapped = true
+
+UICorner_64.Parent = OTROS
+
+S2.Name = "S2"
+S2.Parent = GuiMX
+S2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S2.BackgroundTransparency = 1.000
+S2.Position = UDim2.new(-0.00662251655, 0, 0.295243263, 0)
+S2.Size = UDim2.new(0, 150, 0, 25)
+S2.Font = Enum.Font.SourceSans
+S2.Text = "SERVER"
+S2.TextColor3 = Color3.fromRGB(255, 255, 255)
+S2.TextSize = 16.000
+S2.TextWrapped = true
+
+REJOIN.Name = "REJOIN"
+REJOIN.Parent = GuiMX
+REJOIN.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+REJOIN.Position = UDim2.new(0.111000001, 0, 0.377999991, 0)
+REJOIN.Size = UDim2.new(0, 113, 0, 35)
+REJOIN.Font = Enum.Font.SourceSansSemibold
+REJOIN.Text = "REJOIN"
+REJOIN.TextColor3 = Color3.fromRGB(255, 255, 255)
+REJOIN.TextSize = 17.000
+REJOIN.TextWrapped = true
+
+UICorner_65.Parent = REJOIN
+
+END_2.Name = "END"
+END_2.Parent = GuiMX
+END_2.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+END_2.Position = UDim2.new(0.111000001, 0, 0.501999974, 0)
+END_2.Size = UDim2.new(0, 113, 0, 35)
+END_2.Font = Enum.Font.SourceSansSemibold
+END_2.Text = "END SERVER"
+END_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+END_2.TextSize = 17.000
+END_2.TextWrapped = true
+
+UICorner_66.Parent = END_2
+
+LOADSCRIPT.Name = "LOADSCRIPT"
+LOADSCRIPT.Parent = GuiMX
+LOADSCRIPT.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+LOADSCRIPT.BackgroundTransparency = 0.650
+LOADSCRIPT.Position = UDim2.new(0.111029208, 0, 0.0513462722, 0)
+LOADSCRIPT.Size = UDim2.new(0, 113, 0, 35)
+LOADSCRIPT.Font = Enum.Font.SourceSansSemibold
+LOADSCRIPT.Text = ""
+LOADSCRIPT.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOADSCRIPT.TextSize = 17.000
+LOADSCRIPT.TextWrapped = true
+
+UICorner_67.Parent = LOADSCRIPT
+
+Colorfav.Name = "Colorfav"
+Colorfav.Parent = Gui
+Colorfav.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+Colorfav.BackgroundTransparency = 1.000
+Colorfav.Size = UDim2.new(0, 100, 0, 100)
+
+-- Scripts:
+
+local function APDU_fake_script() -- All.BLScript 
+	local script = Instance.new('LocalScript', All)
+
+	local BlButton = script.Parent.Parent.menu.BLBu
+	local BlText = script.Parent.Parent.menu.BLBu.TextLabel
+	
+	local BlOn = 0
+	
+	BlButton.MouseButton1Down:connect(function()
+		if BlText.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			
+			BlText.TextColor3 = Color3.fromRGB(255, 0, 0)
+			BlText.Text = "BLACKLIST: OFF"
+			BlOn = 0
+		else
+			if BlText.TextColor3 == Color3.fromRGB(255, 0, 0) then
+				
+				BlText.TextColor3 = Color3.fromRGB(85, 255, 127)
+				BlText.Text = "BLACKLIST: ON"
+				BlOn = 1
+				
+			end
+			
+		end
+	end)
+	
+	
+	
+end
+coroutine.wrap(APDU_fake_script)()
+local function TLBLGIG_fake_script() -- All.StartingGUi 
+	local script = Instance.new('LocalScript', All)
+
+	
+	
+	wait(0.5)
+	--FUNCTION
+	
+	local function typewrite(object,text)
+		for i = 1,#text,1 do
+			object.Text = string.sub(text,1,i)
+			wait(0.01)
+		end
+	end
+	
+	--LOCALS
+	
+	local GUI = script.Parent
+	local Menu = script.Parent.Parent.menu
+	local Menus = script.Parent.Parent.menu.menus
+	
+	local TittleType = script.Parent.Parent.menu.Tittle
+	
+	
+	-- GETTING PLAYER DATA
+	
+	local playerg = game.Players.LocalPlayer
+	local userId = playerg.UserId
+	local GuiN = script.Parent.Parent.Guix.GuiN
+	
+	Menu.PlayerName.Text = playerg.Name
+	
+	GuiN.GTitle.PlayerName.Text = playerg.Name
+	
+	-- ADMINS
+	local colorfav = script.Parent.Parent.Colorfav
+	
+	if Menu.PlayerName.Text == "ziiGhxst" then
+		colorfav.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+	else
+		if Menu.PlayerName.Text == "02Vxid" then
+			colorfav.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+		else
+			if Menu.PlayerName.Text == "HenryRenacuajo" then
+				colorfav.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+			end
+		end
+	
+	end
+	
+	wait(0.02)
+	
+	GUI.Visible = true
+	Menu.Visible = true
+	
+	-- starting pos: {0.275, 0},{0.166, 0}
+	-- final pos: {0.275, 0},{0.321, 0}
+	
+	
+	GUI:TweenPosition(UDim2.new(0.358, 0, 0.321, 0))
+	Menu:TweenPosition(UDim2.new(0.358, 0, 0.321, 0))
+	local guiT = 1
+	local guiM = 1
+	
+	while guiT > 0  do
+		guiT = guiT - 0.05
+		GUI.BackgroundTransparency = guiT
+		Menus.BackgroundTransparency = guiT
+		wait(0.01)
+	end
+	
+	
+	
+	
+	typewrite(TittleType, "BIENVENIDO")
+	
+	
+	
+	
+	
+end
+coroutine.wrap(TLBLGIG_fake_script)()
+local function WMWRS_fake_script() -- All.EndingGui 
+	local script = Instance.new('LocalScript', All)
+
+	local InicButton = script.Parent.Parent.menu.INICIAR
+	local welcome = script.Parent
+	local menu = script.Parent.Parent.menu
+	local tittle = script.Parent.Parent.menu.Tittle
+	local VerBl = script.Parent.Parent.menu.BLBu.TextLabel
+	local bl = script.Parent.Parent.Guix.GuiN.GuiM.BLACKLIST
+	local GuiN = script.Parent.Parent.Guix.GuiN
+	local colorfav = script.Parent.Parent.Colorfav
+	
+	local function typewrite(object,text)
+		for i = 1,#text,1 do
+			object.Text = string.sub(text,1,i)
+			wait(0.01)
+		end
+	end
+	
+	InicButton.MouseButton1Down:Connect(function()
+		script.Disabled = true
+		if VerBl.TextColor3 == Color3.fromRGB(255, 0, 0) then
+			
+			VerBl.TextColor3 = Color3.fromRGB(255, 0, 0)
+			bl.TextColor3 = VerBl.TextColor3
+			bl.Text = "BLACKLIST: OFF"
+			
+		else
+			
+			if VerBl.TextColor3 == Color3.fromRGB(85, 255, 127) then
+				VerBl.TextColor3 = Color3.fromRGB(85, 255, 127)
+				bl.TextColor3 = VerBl.TextColor3
+				bl.Text = "BLACKLIST: ON"
+				
+			end
+		end
+		
+		typewrite(tittle, "DIVIERTETE")
+		wait(0.5)
+		menu.Tittle.TextColor3 = colorfav.BackgroundColor3
+		wait(0.1)
+		menu.Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
+		wait(0.1)
+		menu.Tittle.TextColor3 = colorfav.BackgroundColor3
+		wait(0.1)
+		menu.Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
+		wait(0.1)
+		menu.Tittle.TextColor3 = colorfav.BackgroundColor3
+		wait(0.1)
+		menu.Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
+		wait(1)
+		
+		welcome:TweenPosition(
+			UDim2.new(0.358, 0, -0.450, 0),
+			Enum.EasingDirection.InOut,
+			Enum.EasingStyle.Quad,
+			0.4
+		)
+		menu:TweenPosition(
+			UDim2.new(0.358, 0, -0.450, 0),
+			Enum.EasingDirection.InOut,
+			Enum.EasingStyle.Quad,
+			0.4
+		)
+		
+		wait(1)
+		welcome.Visible = false
+		menu.Visible = false
+		-- first position: {0.015, 0},{0.543, 0}
+		-- final position: {0.015, 0},{0.601, 0}
+		wait(0.1)
+		GuiN.Visible = true
+		GuiN.Parent.Active = true
+		GuiN.Parent.Draggable = true
+		
+		GuiN:TweenPosition(
+			UDim2.new(0.015, 0, 0.02, 0),
+			Enum.EasingDirection.InOut,
+			Enum.EasingStyle.Quad,
+			1,
+			true
+		)
+		
+		-- Guin first pos: {-0.262, 0},{1.437, 0}
+		-- Gui final pos: {-0.262, 0},{0.427, 0}
+		
+		
+		-- GUIX org pos: {-0, 0},{0.636, 0}
+	
+	end)
+end
+coroutine.wrap(WMWRS_fake_script)()
+local function WXPGSR_fake_script() -- GuiN.colorfav 
+	local script = Instance.new('LocalScript', GuiN)
+
+	wait(3)
+	
+	local colorfav = script.Parent.Parent.Parent.Colorfav
+	
+	
+	script.Parent.GTitle.BackgroundColor3 = colorfav.BackgroundColor3
+	
+	
+	
+	
+end
+coroutine.wrap(WXPGSR_fake_script)()
+local function ALASFRR_fake_script() -- GuiN.Close/Open 
+	local script = Instance.new('LocalScript', GuiN)
+
+	-- Guin first pos: {-0.262, 0},{1.437, 0}
+	-- Gui final pos: {-0.262, 0},{0.427, 0}
+	
+	-- ORIGINAL POS
+	
+	local GuiN = script.Parent
+	local Menu = script.Parent.Parent.Parent.All
+	local ALL = script.Parent.Parent.Parent.menu
+	
+	local uis = game:GetService("UserInputService")
+	local TfG = 0
+	local TfGButton = 0.65
+	local Doit = 0
+	local Doit2 = 0
+	
+	uis.InputBegan:Connect(function(Input)
+		if Input.KeyCode == Enum.KeyCode.Q and GuiN.Visible == true and Menu.Visible == false then
+			script.Disabled = true
+			
+			GuiN:TweenPosition(
+				UDim2.new(0.015, 0, 4.900, 0),
+				Enum.EasingDirection.InOut,
+				Enum.EasingStyle.Quad,
+				0.7,
+				true
+			)
+			
+			wait(1)
+			GuiN.Visible = false
+			wait(0.2)
+			
+			script.Disabled = false	
+	
+			
+		else
+			if Input.KeyCode == Enum.KeyCode.Q and GuiN.Visible == false and Menu.Visible == false then
+				script.Disabled = true
+				
+				GuiN:TweenPosition(
+					UDim2.new(0.015, 0, 0.02, 0),
+					Enum.EasingDirection.InOut,
+					Enum.EasingStyle.Quad,
+					0.7,
+					true
+				)
+				
+				wait(0.1)
+				GuiN.Visible = true
+				
+				wait(0.2)
+				
+				script.Disabled = false
+			end
+		end
+	end)
+end
+coroutine.wrap(ALASFRR_fake_script)()
+local function BZKK_fake_script() -- GuiN.Blacklist 
+	local script = Instance.new('LocalScript', GuiN)
+
+	local colorfav = script.Parent.Parent.Parent.Colorfav
+	
+	local function chatnotify(text)
+		game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = text; Color = colorfav.BackgroundColor3; Font = Enum.Font.SourceSans; FontSize = Enum.FontSize.Size42})
+	end
+	
+	
+	local BlOGui = script.Parent.GuiM.BLACKLIST
+	local BlOn = script.Parent.Parent.Parent.menu.BLBu.TextLabel
+	
+	local BlOnx = 0
+	local function refreshbl()
+		if BlOn.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			BlOGui.TextColor3 = Color3.fromRGB(85, 255, 127)
+			BlOGui.Text = "BLACKLIST: ON"
+	
+			BlOnx = 0
+	
+		else
+			if BlOn.TextColor3 == Color3.fromRGB(255, 0, 0) then
+				BlOGui.TextColor3 = Color3.fromRGB(255, 0, 0)
+				BlOGui.Text = "BLACKLIST: OFF"
+	
+				BlOnx = 1
+			end
+		end
+	end
+	
+	
+	BlOGui.MouseButton1Down:Connect(function()
+		if BlOn.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			BlOn.TextColor3 = Color3.fromRGB(255, 0, 0)
+			
+			refreshbl()
+		else
+			if BlOn.TextColor3 == Color3.fromRGB(255, 0, 0) then
+				BlOn.TextColor3 = Color3.fromRGB(85, 255, 127)
+				
+				refreshbl()
+			end
+		end
+	end)
+end
+coroutine.wrap(BZKK_fake_script)()
+local function CRAAXE_fake_script() -- Page4.CountFunc 
+	local script = Instance.new('LocalScript', Page4)
+
+	function chat(message)
+		local args = {
+			[1] = message,
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	local Counting = 0
+	
+	script.Parent.Sub1p1.Count.MouseButton1Down:Connect(function()
+		if Counting == 0 then
+			script.Disabled = true
+			Counting = 1
+	
+			chat("III")
+			wait(1)
+			chat("II")
+			wait(1)
+			chat("I")
+			wait(1)
+			chat("GO")
+			wait(0.5)
+	
+			Counting = 0
+			script.Disabled = false
+		end
+	end)
+	
+	
+end
+coroutine.wrap(CRAAXE_fake_script)()
+local function DHUKGVO_fake_script() -- Page4.Sub1Page 
+	local script = Instance.new('LocalScript', Page4)
+
+	local Page = 1
+	
+	local page1 = script.Parent.Sub1p1
+	local page2 = script.Parent.Sub1p2
+	local page3 = script.Parent.Sub1p3
+	local page4 = script.Parent.Sub1p4
+	
+	local pagetext = script.Parent.PageNumber
+	
+	local izq = script.Parent.Izq
+	local der = script.Parent.Der
+	
+	local function refreshP()
+		if Page == 1 then
+			page1.Visible = true
+			page2.Visible = false
+			page3.Visible = false
+			page4.Visible = false
+			
+			pagetext.Text = "1/4"
+		else
+			if Page == 2 then
+				page1.Visible = false
+				page2.Visible = true
+				page3.Visible = false
+				page4.Visible = false
+				
+				pagetext.Text = "2/4"
+			else
+				if Page == 3 then
+					page1.Visible = false
+					page2.Visible = false
+					page3.Visible = true
+					page4.Visible = false
+					
+					pagetext.Text = "3/4"
+				else
+					if Page == 4 then
+						page1.Visible = false
+						page2.Visible = false
+						page3.Visible = false
+						page4.Visible = true
+						
+						pagetext.Text = "4/4"
+					end
+				end
+			end
+		end
+	end
+	
+	wait(1)
+	
+	refreshP()
+	
+	izq.MouseButton1Down:Connect(function()
+		Page = Page - 1 
+		if Page < 1 then
+			Page = 1
+		end
+		
+		refreshP()
+	end)
+	
+	der.MouseButton1Down:Connect(function()
+		Page = 	Page + 1
+		if Page > 4 then
+			Page = 4
+		end
+		
+		refreshP()
+	end)
+end
+coroutine.wrap(DHUKGVO_fake_script)()
+local function ULPWU_fake_script() -- Sub1p2.GunColorT 
+	local script = Instance.new('LocalScript', Sub1p2)
+
+	guncolorOn = script.Parent.SETTIME
+	
+	guncolorOn.MouseButton1Down:Connect(function()
+		if guncolorOn.TextColor3 == Color3.fromRGB(255, 0, 0) then
+			guncolorOn.TextColor3 = Color3.fromRGB(85, 255, 127)
+			guncolorOn.Text = "GUNCOLOR: ON"
+			
+			
+		else
+			if guncolorOn.TextColor3 == Color3.fromRGB(85, 255, 127) then
+				guncolorOn.TextColor3 = Color3.fromRGB(255, 0, 0)
+				guncolorOn.Text = "GUNCOLOR: OFF"
+				
+				
+			end
+		end
+	end)
+end
+coroutine.wrap(ULPWU_fake_script)()
+local function OCET_fake_script() -- Page4.Sub1Fade 
+	local script = Instance.new('LocalScript', Page4)
+
+	local izq = script.Parent.Izq
+	local der = script.Parent.Der
+	
+	local fadePage = script.Parent.FadeSub1
+	
+	local function refreshFade()
+		script.Disabled = true
+		fadePage.BackgroundTransparency = 0
+		while fadePage.BackgroundTransparency < 1 do
+			wait(0.001)
+			fadePage.BackgroundTransparency = fadePage.BackgroundTransparency + 0.2
+	
+			if fadePage.BackgroundTransparency == 0.98 then
+				script.Disabled = false
+			end
+		end
+	end
+	
+	wait(0.5)
+	
+	refreshFade()
+	
+	izq.MouseButton1Down:Connect(function()
+	
+		refreshFade()
+	end)
+	
+	der.MouseButton1Down:Connect(function()
+	
+		refreshFade()
+	end)
+end
+coroutine.wrap(OCET_fake_script)()
+local function DQNFCJ_fake_script() -- Page4.Sub2Page 
+	local script = Instance.new('LocalScript', Page4)
+
+	local Page = 0
+	
+	local page1 = script.Parent.Sub2p1
+	local page2 = script.Parent.Sub2p2
+	local page3 = script.Parent.Sub2p3
+	local page4 = script.Parent.Sub2p4
+	local page5 = script.Parent.Sub2p5
+	
+	local tel = script.Parent.Sub1p1.Teleports
+	local teams = script.Parent.Sub1p1.Teams
+	local cursor = script.Parent.Sub1p3.CURSOR
+	local bri = script.Parent.Sub1p4.Bri
+	local fli = script.Parent.Sub1p3.FLING
+	
+	local function refreshP()
+		
+		if Page == 0 then
+			page1.Visible = false
+			page2.Visible = false
+			page3.Visible = false
+			page4.Visible = false
+		else
+			if Page == 1 then
+				page1.Visible = true
+				page2.Visible = false
+				page3.Visible = false
+				page4.Visible = false
+			else
+				if Page == 2 then
+					page1.Visible = false
+					page2.Visible = true
+					page3.Visible = false
+					page4.Visible = false
+				else
+					if Page == 3 then
+						page1.Visible = false
+						page2.Visible = false
+						page3.Visible = true
+						page4.Visible = false
+					else
+						if Page == 4 then
+							page1.Visible = false
+							page2.Visible = false
+							page3.Visible = false
+							page4.Visible = true
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	
+	wait(1)
+	
+	refreshP()
+	
+	
+	teams.MouseButton1Down:Connect(function()
+		Page = 1
+		refreshP()
+	end)
+	
+	tel.MouseButton1Down:Connect(function()
+		Page = 2
+		refreshP()
+	end)
+	
+	cursor.MouseButton1Down:connect(function()
+		Page = 3
+		refreshP()
+	end)
+	
+	bri.MouseButton1Down:Connect(function()
+		Page = 4
+		refreshP()
+	end)
+	
+	fli.MouseButton1Down:Connect(function()
+		Page = 5
+		refreshP()
+	end)
+	
+	
+end
+coroutine.wrap(DQNFCJ_fake_script)()
+local function AIIC_fake_script() -- Page4.Sub2Fade 
+	local script = Instance.new('LocalScript', Page4)
+
+	local Page = 1
+	
+	local page1 = script.Parent.Sub2p1
+	local page2 = script.Parent.Sub2p2
+	
+	local tel = script.Parent.Sub1p1.Teleports
+	local teams = script.Parent.Sub1p1.Teams
+	
+	local cursor = script.Parent.Sub1p3.CURSOR
+	local bri = script.Parent.Sub1p4.Bri
+	local fli = script.Parent.Sub1p3.FLING
+	
+	local fadePage = script.Parent.FadeSub2
+	
+	local function refreshFade()
+		script.Disabled = true
+		fadePage.BackgroundTransparency = 0
+		while fadePage.BackgroundTransparency < 1 do
+			wait(0.001)
+			fadePage.BackgroundTransparency = fadePage.BackgroundTransparency + 0.2
+	
+			if fadePage.BackgroundTransparency == 0.98 then
+				script.Disabled = false
+			end
+		end
+	end
+	
+	wait(1)
+	
+	refreshFade()
+	
+	tel.MouseButton1Down:Connect(function()
+		refreshFade()
+	end)
+	
+	teams.MouseButton1Down:Connect(function()
+		refreshFade()
+	end)
+	
+	cursor.MouseButton1Down:Connect(function()
+		refreshFade()
+	end)
+	
+	bri.MouseButton1Down:Connect(function()
+		refreshFade()
+	end)
+	
+	fli.MouseButton1Down:Connect(function()
+		refreshFade()
+	end)
+	
+end
+coroutine.wrap(AIIC_fake_script)()
+local function BVPIA_fake_script() -- Sub2p5.lfling 
+	local script = Instance.new('LocalScript', Sub2p5)
+
+	local lfling = script.Parent.LFLING
+	
+	
+	lfling.MouseButton1Down:Connect(function()
+		if lfling.TextColor3 == Color3.fromRGB(255, 0, 0) then
+			
+			lfling.TextColor3 = Color3.fromRGB(85, 255, 127)
+			lfling.Text = "LOOP FLING: ON"
+			
+		else 
+			if lfling.TextColor3 == Color3.fromRGB(85, 255, 127) then
+				
+				lfling.TextColor3 = Color3.fromRGB(255, 0, 0)
+				lfling.Text = "LOOP FLING: OFF"
+			end
+		end
+	end)
+end
+coroutine.wrap(BVPIA_fake_script)()
+local function OEBVY_fake_script() -- GuiN.xd 
+	local script = Instance.new('LocalScript', GuiN)
+
+	script.Parent.Parent.Position = UDim2.new(-0, 0, 0.636, 0)
+	script.Parent.Parent.BackgroundTransparency = 1
+	
+	
+	script.Parent.Position = UDim2.new(0.015, 0, 4.900, 0)
+	
+	
+end
+coroutine.wrap(OEBVY_fake_script)()
+local function EUGUZR_fake_script() -- GuiMX.PageScript 
+	local script = Instance.new('LocalScript', GuiMX)
+
+	local Page = 1
+	
+	local PageN = script.Parent.Parent.GTitle.PageName
+	
+	local ANTIABUSERS = script.Parent.ANTIABUSERS
+	local colorfav = script.Parent.Parent.Parent.Parent.Colorfav
+	
+	local CONTROLES = script.Parent.CONTROLES
+	local LOADSCRIPT = script.Parent.LOADSCRIPT
+	local OTROS = script.Parent.OTROS
+	
+	local movingB = script.Parent.ColorfavB
+	
+	local page1 = script.Parent.Parent.GuiM
+	local page2 = script.Parent.Parent.Page2
+	local page3 = script.Parent.Parent.Page3
+	local page4 = script.Parent.Parent.Page4
+	
+	-- 63, 63, 63
+	wait(0.03)
+	
+	local function refreshPage()
+		if Page == 1 then
+			
+			movingB.BackgroundColor3 = colorfav.BackgroundColor3
+			movingB:TweenPosition(
+				UDim2.new(0.111, 0, 0.051, 0),
+				Enum.EasingDirection.InOut,
+				Enum.EasingStyle.Quad,
+				0.15,
+				true
+			)
+			
+			page1.Visible = true
+			page2.Visible = false
+			page3.Visible = false
+			page4.Visible = false
+			
+			PageN.Text = "CARGAR SCRIPTS"
+			
+		else
+			if Page == 2 then
+				
+				movingB.BackgroundColor3 = colorfav.BackgroundColor3
+				movingB:TweenPosition(
+					UDim2.new(0.111, 0, 0.174, 0),
+					Enum.EasingDirection.InOut,
+					Enum.EasingStyle.Quad,
+					0.15,
+					true
+				)
+				
+				page1.Visible = false
+				page2.Visible = true
+				page3.Visible = false
+				page4.Visible = false
+				
+				PageN.Text = "ANTIABUSERS"
+			else
+				if Page == 3 then
+					
+					movingB.BackgroundColor3 = colorfav.BackgroundColor3
+					movingB:TweenPosition(
+						UDim2.new(0.111, 0, 0.701, 0),
+						Enum.EasingDirection.InOut,
+						Enum.EasingStyle.Quad,
+						0.15,
+						true
+					)
+					
+					page1.Visible = false
+					page2.Visible = false
+					page3.Visible = true
+					page4.Visible = false
+					
+					PageN.Text = "CONTROLES"
+				else
+					if Page == 4 then
+						
+						movingB.BackgroundColor3 = colorfav.BackgroundColor3
+						movingB:TweenPosition(
+							UDim2.new(0.111, 0, 0.828, 0),
+							Enum.EasingDirection.InOut,
+							Enum.EasingStyle.Quad,
+							0.15,
+							true
+						)
+						
+						page1.Visible = false
+						page2.Visible = false
+						page3.Visible = false
+						page4.Visible = true
+						
+						PageN.Text = "OTROS"
+					end
+				end
+			end
+		end
+	end
+	
+	
+	
+	wait(1)
+	
+	refreshPage()
+	
+	LOADSCRIPT.MouseButton1Down:Connect(function()
+		Page = 1
+		refreshPage()
+	end)
+	
+	ANTIABUSERS.MouseButton1Down:Connect(function()
+		Page = 2
+		refreshPage()
+	end)
+	
+	CONTROLES.MouseButton1Down:Connect(function()
+		Page = 3
+		refreshPage()
+	end)
+	
+	OTROS.MouseButton1Down:Connect(function()
+		Page = 4
+		refreshPage()
+	end)
+end
+coroutine.wrap(EUGUZR_fake_script)()
+local function EUGPHZ_fake_script() -- GuiMX.PageFade 
+	local script = Instance.new('LocalScript', GuiMX)
+
+	local fadePage = script.Parent.Parent.FadePage
+	
+	local Page = 1
+	
+	local PageN = script.Parent.Parent.GTitle.PageName
+	
+	local ANTIABUSERS = script.Parent.ANTIABUSERS
+	local colorfav = script.Parent.Parent.Parent.Parent.Colorfav
+	
+	local CONTROLES = script.Parent.CONTROLES
+	local LOADSCRIPT = script.Parent.LOADSCRIPT
+	local OTROS = script.Parent.OTROS
+	
+	local movingB = script.Parent.ColorfavB
+	
+	local page1 = script.Parent.Parent.GuiM
+	local page2 = script.Parent.Parent.Page2
+	local page3 = script.Parent.Parent.Page3
+	local page4 = script.Parent.Parent.Page4
+	
+	-- 63, 63, 63
+	wait(0.03)
+	
+	
+	
+	local function refreshFade()
+		script.Disabled = true
+		fadePage.BackgroundTransparency = 0
+		while fadePage.BackgroundTransparency < 1 do
+			wait(0.001)
+			fadePage.BackgroundTransparency = fadePage.BackgroundTransparency + 0.2
+	
+			if fadePage.BackgroundTransparency == 0.98 then
+				script.Disabled = false
+			end
+		end
+	end
+	
+	
+	
+	wait(1)
+	
+	refreshFade()
+	
+	LOADSCRIPT.MouseButton1Down:Connect(function()
+		Page = 1
+		refreshFade()
+	end)
+	
+	ANTIABUSERS.MouseButton1Down:Connect(function()
+		Page = 2
+		refreshFade()
+	end)
+	
+	CONTROLES.MouseButton1Down:Connect(function()
+		Page = 3
+		refreshFade()
+	end)
+	
+	OTROS.MouseButton1Down:Connect(function()
+		Page = 4
+		refreshFade()
+	end)
+end
+coroutine.wrap(EUGPHZ_fake_script)()
+local function KATISWA_fake_script() -- GuiN.SHIELD 
+	local script = Instance.new('LocalScript', GuiN)
+
+	game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
+		if gameProcessedEvent then return end
+		if inputObject.KeyCode == Enum.KeyCode.G then
+			for _,player in pairs(game.Players:GetPlayers()) do
+				local minecraft = game.Workspace:FindFirstChild(player.Name).Torso:FindFirstChild("ShieldFolder")
+				if minecraft then
+					minecraft:Destroy()
+				end
+				local fortnite = game.Workspace:FindFirstChild(player.Name):FindFirstChild("Riot Shield")
+				if fortnite then
+					fortnite:Destroy()
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(KATISWA_fake_script)()
+
+-- MENU
+
+local function refreshMenu()
+
+	local xd = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.ClockFrame
+
+	local xdxd = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.MenuButton
+
+	local ashn = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.GunFrame
+
+	local dauh = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.GunFrame.Frame
+
+	local dadu = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.Topbar.Pulldownmenu
+
+	local jhis = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.Topbar.titleBar
+
+	local ajwi = game:GetService("Players").LocalPlayer.PlayerGui.Home.hud.Topbar.Pulldownmenu.tb
+
+	xd.BackgroundColor3 = Colorfav.BackgroundColor3
+
+	xdxd.BackgroundColor3 = Colorfav.BackgroundColor3
+
+	ashn.BackgroundColor3 = Colorfav.BackgroundColor3
+
+	dauh.BackgroundColor3 = Colorfav.BackgroundColor3
+
+	dadu.BackgroundColor3 = Colorfav.BackgroundColor3
+
+	jhis.BackgroundColor3 = Colorfav.BackgroundColor3
+
+	ajwi.BackgroundColor3 = Colorfav.BackgroundColor3
+
+end
+
+wait(1)
+
+refreshMenu()
+
+local function getGuns()
+	--M4A1----------------------------------------------------
+	if (game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId, 96651)) then
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M4A1"].ITEMPICKUP)
+	else --If you don't have gamepass for M4A1 then you will get the converted AK-47
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP) 
+		require(game.Players.LocalPlayer.Backpack:FindFirstChild("AK-47"):FindFirstChild("GunStates"))["FireRate"] = 0.09
+	end
+	----------------------------------------------------------
+	--Remington870--------------------------------------------
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) --Remington 870
+
+
+	----------------------------------------------------------
+
+	--AK-47---------------------------------------------------
+	if (game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId, 96651)) then
+		--If you don't have gamepass for M4A1 then you will not get this AK-47
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
+	end
+	----------------------------------------------------------
+
+	--M9---------------------------------------------------
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
+	if game.Players.LocalPlayer:FindFirstChild("M9") then
+		game.Players.LocalPlayer:FindFirstChild("M9").Parent = game.Players.LocalPlayer.Backpack
+	end
+	-------------------------------------------------------
+end
+
+function GetRootOri()
+	a1,a2,a3 = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame:ToOrientation()
+	return CFrame.new(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame.X, game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame.Y, game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame.Z) * CFrame.fromOrientation(0,a2,0)
+end
+
+function chatnotify(text)
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {Text = text; Color = Colorfav.BackgroundColor3; Font = Enum.Font.SourceSansBold; FontSize = Enum.FontSize.Size42})
+end
+
+-- all buttons
+
+BLBu.MouseButton1Down:connect(function()
+	chatnotify("Lo siento, esto aun no se puede usar :(")
+end)
+
+ANTIS.MouseButton1Down:connect(function()
+	chatnotify("Lo siento, esto aun no se puede usar :(")
+end)
+
+END.MouseButton1Down:connect(function()
+	local PackageSize = 100000 
+	local SendPackageAmountOfTimes = 5
+
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+
+	local ItemHandler = workspace:WaitForChild("Remote").ItemHandler
+	local ShootEvent = ReplicatedStorage:WaitForChild("ShootEvent")
+
+	ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+	local Tool = Players.LocalPlayer:FindFirstChild("Backpack"):FindFirstChild("Remington 870") or workspace:WaitForChild(Players.LocalPlayer.Name):FindFirstChild("Remington 870")
+
+	local Packet = {
+		RayObject = Ray.new(Vector3.new(-1, -1, -1), Vector3.new(1, 1, 1)),
+		Distance = math.huge,
+		Cframe = CFrame.new(0, 0, 0),
+		Hit = workspace:FindFirstChildOfClass("Part")
+	}
+
+	local Package = {}
+
+	for i = 1, PackageSize do
+		Package[i] = Packet
+	end
+
+	for i = 1, SendPackageAmountOfTimes do
+		ShootEvent:FireServer(Package, Tool)
+	end
+end)
+
+Count.MouseButton1Down:connect(function()
+	local lastPos = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+	LCS = game.Workspace["Criminals Spawn"].SpawnLocation
+	LCS.CanCollide = false
+	LCS.Size = Vector3.new(51.05, 24.12, 54.76)
+	LCS.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	LCS.Transparency = 1
+	wait(0.5)
+	LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	LCS.Size = Vector3.new(6, 0.2, 6)
+	LCS.Transparency = 0
+	wait()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
+end)
+
+Count_2.MouseButton1Down:connect(function()
+	workspace.Remote.TeamEvent:FireServer("Bright blue")
+end)
+
+Count_3.MouseButton1Down:connect(function()
+	workspace.Remote.TeamEvent:FireServer("Bright orange")
+end)
+
+Count_4.MouseButton1Down:connect(function()
+	workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+end)
+
+RANDOME.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 24
+	game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+	game.Players.LocalPlayer.CharacterAdded:connect(function()
+		game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+		game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+	end)
+end)
+
+RESPAWN.MouseButton1Down:connect(function()
+	local lastPos = GetRootOri()
+	local lastCam = workspace.CurrentCamera.CFrame
+	game:GetService("Workspace").Remote.loadchar:InvokeServer()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastPos
+	workspace.CurrentCamera.CFrame = lastCam
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+end)
+
+GUNS.MouseButton1Down:connect(function()
+	wait(0.1)
+	if game.Players.LocalPlayer.Team.Name == "Criminals" then 
+		if game.Players.LocalPlayer.Character:FindFirstChildOfClass("ForceField") then return end
+	end
+	getGuns()
+end)
+
+XYZ.MouseButton1Down:connect(function()
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	print(pl.CFrame)
+end)
+
+-- teleports
+
+Count_6.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(917, 100, 2387)
+end)
+
+Count_7.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(879, 99, 2247)
+end)
+
+Count_8.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848,118,2332)
+end)
+
+Count_9.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(917, 100, 2415)
+end)
+
+Count_10.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(778, 98, 2465)
+end)
+
+Count_11.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-770, 11, 1491)
+end)
+
+Count_12.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-943, 95, 2056)
+end)
+
+Count_13.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(798,99,2260)
+end)
+
+Count_14.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(980, 101, 2327)
+end)
+
+-- buttons
+
+SPAMARREST.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Julianitocuatro/sa/main/sa",true))();
+end)
+
+REJOIN.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+
+END_2.MouseButton1Down:connect(function()
+	local PackageSize = 100000 
+	local SendPackageAmountOfTimes = 5
+
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+
+	local ItemHandler = workspace:WaitForChild("Remote").ItemHandler
+	local ShootEvent = ReplicatedStorage:WaitForChild("ShootEvent")
+
+	ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+	local Tool = Players.LocalPlayer:FindFirstChild("Backpack"):FindFirstChild("Remington 870") or workspace:WaitForChild(Players.LocalPlayer.Name):FindFirstChild("Remington 870")
+
+	local Packet = {
+		RayObject = Ray.new(Vector3.new(-1, -1, -1), Vector3.new(1, 1, 1)),
+		Distance = math.huge,
+		Cframe = CFrame.new(0, 0, 0),
+		Hit = workspace:FindFirstChildOfClass("Part")
+	}
+
+	local Package = {}
+
+	for i = 1, PackageSize do
+		Package[i] = Packet
+	end
+
+	for i = 1, SendPackageAmountOfTimes do
+		ShootEvent:FireServer(Package, Tool)
+	end
+end)
+
+BLACKLIST.MouseButton1Down:connect(function()
+	chatnotify("Lo siento, esta opcion aun no se puede usar :(")
+end)
+
+MOSCANEW.MouseButton1Down:connect(function()
+	getgenv().Theme = 'Old'
+	loadstring(game:HttpGet("https://moscagui.000webhostapp.com/Mosca-HubV2/",true))()
+
+	wait(3)
+	refreshMenu()
+end)
+
+MOSCAOLD.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Julianitocuatro/ddasdw/main/xdxdxd",true))();
+
+	wait(3)
+	refreshMenu()
+end)
+
+SCORPION.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Julianitocuatro/sco/main/scor", true))();
+end)
+
+SCORPIONB.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://www.scorpionadm.in/script'))()
+end)
+
+-- keys
+
+game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
+	if gameProcessedEvent then return end
+	if inputObject.KeyCode == Enum.KeyCode.E then
+		for _,player in pairs(game.Players:GetPlayers()) do
+			local minecraft = game.Workspace:FindFirstChild(player.Name).Torso:FindFirstChild("ShieldFolder")
+			if minecraft then
+				minecraft:Destroy()
+			end
+			local fortnite = game.Workspace:FindFirstChild(player.Name):FindFirstChild("Riot Shield")
+			if fortnite then
+				fortnite:Destroy()
+			end
+		end
+	end
+end)
+
+game:GetService("UserInputService").InputBegan:connect(function(input, gameProcessedEvent)
+	if gameProcessedEvent then return end
+	if input.KeyCode == Enum.KeyCode.Z then
+		local lastPos = GetRootOri()
+		local lastCam = workspace.CurrentCamera.CFrame
+		game:GetService("Workspace").Remote.loadchar:InvokeServer()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastPos
+		workspace.CurrentCamera.CFrame = lastCam
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+
+		wait(0.1)
+
+		getGuns()
+	end
+end)
+
+
+game:GetService("UserInputService").InputBegan:connect(function(input, gameProcessedEvent)
+	if input.KeyCode == Enum.KeyCode.V then
+		if game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.Visible == false then
+			game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.Visible = true
+		else
+			if game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.Visible == true then
+				game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.Visible = false
+			end
+		end
+	end
+end)
+
+SETTIME.MouseButton1Down:connect(function()
+	chatnotify("aun no")
+end)
+
+game:GetService("Players").LocalPlayer.PlayerGui.Home.fadeFrame.Visible = false
+
+game:GetService("UserInputService").InputBegan:connect(function(input, gameProcessedEvent)
+
+	local snum = 0
+
+	if input.KeyCode == Enum.KeyCode.Space then
+		if MINEFLY.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			snum = snum + 1
+
+			if snum == 2 then
+				startFly()
+			end
+
+			if snum == 4 then
+				endFly()
+			end
+
+			if snum < 4 then
+				snum = 0
+			end
+		end
+	end
+end)
+
+
+local function toPlayer(play)
+	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local pl2 = play
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+	wait(0.1)
+
+	pl.CFrame = game.Players[pl2].Character.HumanoidRootPart.CFrame
+end
+
+local function GetPlayerFromString(nameString)
+	if not nameString then return end 
+	local matches= {}
+	for _, player in ipairs (game.Players:GetPlayers()) do
+		if string.lower(player.Name):match(string.lower(nameString)) then
+			table.insert(matches, player)
+		end
+	end
+	if #matches== 1 then
+		return matches[1]
+	else
+		return nil
+	end
+end
+
+local UserId = tonumber((game:GetService("Players").LocalPlayer.CharacterAppearance):split('=')[#((game:GetService("Players").LocalPlayer.CharacterAppearance):split('='))])
+local UserName = game:GetService('HttpService'):JSONDecode(game:HttpGet('http://api.roblox.com/users/'..UserId)).Username
+
+FLING.MouseButton1Down:connect(function()
+	if FLING.TextColor3 == Color3.fromRGB(255,0,0) then
+		FLING.TextColor3 = Color3.fromRGB(85, 255, 127)
+		FLING.Text = "FLING: ON"
+
+		local power = 500
+
+		game:GetService('RunService').Stepped:connect(function()
+			game.Players.LocalPlayer.Character.Head.CanCollide = false
+			game.Players.LocalPlayer.Character.UpperTorso.CanCollide = false
+			game.Players.LocalPlayer.Character.LowerTorso.CanCollide = false
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+		end)
+		wait(.1)
+		local bambam = Instance.new("BodyThrust")
+		bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+		bambam.Force = Vector3.new(power,0,power)
+		bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+	else
+		if FLING.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			FLING.TextColor3 = Color3.fromRGB(255,0,0)
+			FLING.Text = "FLING: OFF"
+
+			game:GetService('RunService').Stepped:connect(function()
+				game.Players.LocalPlayer.Character.Head.CanCollide = true
+				game.Players.LocalPlayer.Character.UpperTorso.CanCollide = true
+				game.Players.LocalPlayer.Character.LowerTorso.CanCollide = true
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
+			end)
+
+			local lastPos = GetRootOri()
+			local lastCam = workspace.CurrentCamera.CFrame
+			game:GetService("Workspace").Remote.loadchar:InvokeServer()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastPos
+			workspace.CurrentCamera.CFrame = lastCam
+			game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+
+		end
+	end
+end)
+function respawns()
+	local lastPos = GetRootOri()
+	local lastCam = workspace.CurrentCamera.CFrame
+	game:GetService("Workspace").Remote.loadchar:InvokeServer()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastPos
+	workspace.CurrentCamera.CFrame = lastCam
+	game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+
+	if ANTIASPAM.TextColor3 == Color3.fromRGB(85, 255, 127) then
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 24
+		game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+		game.Players.LocalPlayer.CharacterAdded:connect(function()
+			game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+			game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+		end)
+	end
+end
+
+local function humanoidDied()
+	if ANTISH.TextColor3 == Color3.fromRGB(85, 255, 127) then
+		local lastPos = GetRootOri()
+		local lastCam = workspace.CurrentCamera.CFrame
+		game:GetService("Workspace").Remote.loadchar:InvokeServer()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastPos
+		workspace.CurrentCamera.CFrame = lastCam
+		game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+	end
+end
+
+ANTIASPAM.MouseButton1Down:connect(function()
+	if ANTIASPAM.TextColor3 == Color3.fromRGB(85, 255, 127) then
+
+		ANTIASPAM.TextColor3 = Color3.fromRGB(255, 0, 0)
+		ANTIASPAM.Text = "AUTOLOCK: OFF"
+		respawns()
+		wait()
+		getGuns()
+	else
+		if ANTIASPAM.TextColor3 == Color3.fromRGB(255, 0, 0) then
+
+			ANTIASPAM.TextColor3 = Color3.fromRGB(85, 255, 127)
+			ANTIASPAM.Text = "AUTOLOCK: ON"
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 24
+			game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+			game.Players.LocalPlayer.CharacterAdded:connect(function()
+				game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+				game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+			end)
+		end
+	end
+
+end)
+
+game.Players.LocalPlayer.CharacterAdded:Connect(function(newChar)
+	if ANTISH.TextColor3 == Color3.fromRGB(85, 255, 127) then 
+		newChar:WaitForChild("Humanoid").Died:Connect(function()
+			local lastPos = GetRootOri()
+			local lastCam = workspace.CurrentCamera.CFrame
+			game:GetService("Workspace").Remote.loadchar:InvokeServer()
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = lastPos
+			workspace.CurrentCamera.CFrame = lastCam
+			game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+		end)
+		getGuns()
+
+		if ANTIASPAM.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 24
+			game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+			game.Players.LocalPlayer.CharacterAdded:connect(function()
+				game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+				game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+			end)
+		end
+	end	
+end)
+
+
+
+CURSOR.MouseButton1Down:connect(function()
+	game:GetService("Lighting").Brightness = 0.6
+	game:GetService("Lighting").ClockTime = 14
+	game:GetService("Lighting").FogEnd = 100000
+	game:GetService("Lighting").GlobalShadows = false
+	game:GetService("Lighting").OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+	for _, v in pairs(game:GetDescendants()) do
+		pcall(function()
+			v.Material = Enum.Material.SmoothPlastic
+		end)
+	end
+	chatnotify("SE HA ACTIVADO EL ANTILAG, PARA DESACTIVARLO, HAZ REJOIN OWO")
+end)
+
+RSERVER.MouseButton1Down:connect(function()
+	game:GetService('TeleportService'):Teleport(game.PlaceId)
+end)
+
+ANTISH.MouseButton1Down:connect(function()
+	if ANTISH.TextColor3 == Color3.fromRGB(255,0,0) then
+		ANTISH.TextColor3 = Color3.fromRGB(85, 255, 127)
+		ANTISH.Text = "AUTORESPAWN: ON"
+
+		chatnotify("SE HA ACTIVADO EL AUTORESPAWN.")
+
+		local char = workspace:FindFirstChild(UserName)
+
+		char.Humanoid.Died:Connect(humanoidDied)
+	else
+		if ANTISH.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			ANTISH.TextColor3 = Color3.fromRGB(255,0,0)
+			ANTISH.Text = "AUTORESPAWN: OFF"
+
+			chatnotify("SE HA DESACTIVADO EL AUTORESPAWN.")
+			respawns()
+		end	
+	end
+end)
+
+COPLOOP.MouseButton1Down:connect(function()
+	if COPLOOP.TextColor3 == Color3.fromRGB(255,0,0) then
+		COPLOOP.TextColor3 = Color3.fromRGB(85, 255, 127)
+		COPLOOP.Text = "COPLOOP: ON"
+
+		while true do
+			wait(.01)
+			workspace.Remote.TeamEvent:FireServer("Bright blue")
+			if COPLOOP.TextColor3 == Color3.fromRGB(255,0,0) then
+				break
+			end
+		end
+	else
+		if COPLOOP.TextColor3 == Color3.fromRGB(85, 255, 127) then
+			COPLOOP.TextColor3 = Color3.fromRGB(255,0,0)
+			COPLOOP.Text = "COPLOOP: OFF"
+		end	
+	end
+end)
+
+SETBRI.MouseButton1Down:connect(function()
+	local bris = TextBox_2.Text
+
+	game.Lighting.Brightness = tonumber(bris)
+	game.Lighting.Ambient = Color3.fromRGB(tonumber(bris),tonumber(bris),tonumber(bris))
+end)
+
+RBRI.MouseButton1Down:connect(function()
+	game.Lighting.Brightness = 1.5
+	game.Lighting.Ambient = Color3.fromRGB(109, 109, 109)
+end)
